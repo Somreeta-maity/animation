@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(135deg, orange, turquoise);
-    color: white;
+    color: rgb(15, 12, 12);
     font-family: 'Segoe UI', sans-serif;
     text-align: center;
     margin: 0;
@@ -31,7 +31,7 @@ body {
 
 .image-container {
     animation: zoomIn 2s ease-out;
-    border-radius: 16px;
+    border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
 }
