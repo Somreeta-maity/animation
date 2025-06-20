@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animated Image with Text</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="content">
+        <h1 class="animated-text">Hello, I’m Somreeta!</h1>
+        <div class="image-container">
+            <img src="{{ url_for('static', filename='image.jpg') }}" alt="Animated Photo" class="animated-img">
+        </div>
+        <p class="animated-subtext">Welcome to my animated world ✨</p>
+                <p class="animated-paragraph">
+            I’m passionate about technology, creativity, and bringing ideas to life through code and design.
+            This site is a space where I explore animation, interactivity, and storytelling. Thanks for stopping by!
+        </p>
+
+    </div>
+</body>
+</html>
